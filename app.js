@@ -770,6 +770,13 @@ if (settings.webserver.tls.enabled == true) {
 
   var https = require('https');
   https.createServer(tls_options, app).listen(settings.webserver.tls.port);
+
+//  var http = require('http');
+
+//  http.createServer(function (req, res) {
+//    res.writeHead(301, { "Location": "https://" + req.headers['host'] + req.url });
+//    res.end();
+//}).listen(80);
 }
 
 module.exports = app;
