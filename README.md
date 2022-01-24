@@ -218,14 +218,14 @@ While we do not yet have our own step-by-step setup instructions, there are a fe
 2. [Node and Iquidus Explorer Setup for Dummies](https://gist.github.com/scottie/b6179c34ce3cf200fcc5d08727a46623)
 3. [Iquidus Block Explorer Guide](https://www.reddit.com/r/BiblePay/comments/7elm7r/iquidus_block_explorer_guide)
 
-#### Quick Install Instructions
+#### Quick Install Instructions - Tested on Ubuntu 18.04
 
 ##### Pre-Install
 
 The following prerequisites must be installed before using the explorer:
 
-- [Node.js](https://nodejs.org/en/) (v14.15.4 or newer recommended)
-- [MongoDB](https://www.mongodb.com/) (v4.4.3 or newer recommended)
+- [Node.js](https://nodejs.org/en/) (v14.15.4 or newer recommended) (https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04)
+- [MongoDB](https://www.mongodb.com/) (v4.4.3 or newer recommended) (https://www.digitalocean.com/community/tutorials/how-to-install-mongodb-on-ubuntu-18-04-source/)
 - A fully synchronized *coind* wallet daemon that supports the [Bitcoin RPC API protocol](https://developer.bitcoin.org/reference/rpc/index.html)
 
 ##### Database Setup
