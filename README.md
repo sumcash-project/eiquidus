@@ -2,7 +2,7 @@
 
 ### v1.99.0
 
-Written in node.js and mongodb, eIquidus is the most stable, secure, customizable and feature-rich open-source block explorer with support for virtually any altcoin that implements some form of the [Bitcoin RPC API protocol](https://developer.bitcoin.org/reference/rpc/index.html). Originally built for the [Exor blockchain](https://github.com/team-exor/exor), eIquidus has since grown into a fully-featured explorer with a focus on stability and security at its core. All features from the [original iquidus explorer](https://github.com/iquidus/explorer) are included here along with many new ideas from other iquidus forks, and an absolute ton of new custom changes and bug fixes that were developed specifically for eIquidus.
+Written in node.js and mongodb, eIquidus is the most stable, secure, customizable and feature-rich open-source block explorer with support for virtually any altcoin that implements some form of the [Bitcoin RPC API protocol](https://developer.bitcoin.org/reference/rpc/index.html). Originally built for the [Exor blockchain](https://github.com/sumcash-project/sumcash), eIquidus has since grown into a fully-featured explorer with a focus on stability and security at its core. All features from the [original iquidus explorer](https://github.com/iquidus/explorer) are included here along with many new ideas from other iquidus forks, and an absolute ton of new custom changes and bug fixes that were developed specifically for eIquidus.
 
 ![Homepage](https://user-images.githubusercontent.com/37975862/143666250-75ef3860-369c-4fe8-aec9-82c8e2a9f47a.png)
 
@@ -16,7 +16,7 @@ Written in node.js and mongodb, eIquidus is the most stable, secure, customizabl
 <h3 class="rich-diff-level-zero" align="center" name="eiquidus-open-bounty-program">:moneybag: eIquidus Open Bounty Program :moneybag:</h3>
 <h3 class="rich-diff-level-zero" align="center">:moneybag: DEVELOPERS WANTED: We pay EXOR coins for quality pull requests :moneybag:</h3>
 
-Before getting too excited, please note that for now, the average payment will likely be equivalent to the price of a cup of coffee, depending on the complexity and usefulness of the pull request. The open bounty means that we welcome any and all code submissions that improve the overall experience of the explorer in some way. We are generally more interested in bug fixes and feature enhancements that are useful for most users, and are less interested in coin-specific changes that only benefit a small handful of users, although we do appreciate and support those types of updates as well. Payments will be decided on a case by case basis. If you are interested in submitting a pull request for payment, you may [create a new issue](https://github.com/team-exor/eiquidus/issues) for bugs, [start a new discussion](https://github.com/team-exor/eiquidus/discussions) for general updates, or contact the developer privately via Discord or Telegram using the links below to get an approximate quote on how much a particular fix or feature may be worth.
+Before getting too excited, please note that for now, the average payment will likely be equivalent to the price of a cup of coffee, depending on the complexity and usefulness of the pull request. The open bounty means that we welcome any and all code submissions that improve the overall experience of the explorer in some way. We are generally more interested in bug fixes and feature enhancements that are useful for most users, and are less interested in coin-specific changes that only benefit a small handful of users, although we do appreciate and support those types of updates as well. Payments will be decided on a case by case basis. If you are interested in submitting a pull request for payment, you may [create a new issue](https://github.com/sumcash-projecteiquidus/issues) for bugs, [start a new discussion](https://github.com/sumcash-projecteiquidus/discussions) for general updates, or contact the developer privately via Discord or Telegram using the links below to get an approximate quote on how much a particular fix or feature may be worth.
 
 <div align="center">
 <a href="https://discord.gg/dSuGm3y"><img src="https://img.shields.io/badge/Discord-Joe%20%5BTeam%20Exor%5D%235573-blue?style=for-the-badge&logo=Discord" /></a>&nbsp;
@@ -157,7 +157,7 @@ Table of Contents
   - **Price:** Displays the current market price (value measured using default market pair)
   - **Market Cap:** Displays the current market cap value in (value measured using default market pair)
   - **Logo:** Display an image of your coin logo
-- Add as many custom social links to the explorer footer as desired. Useful for linking to github, twitter, coinmarketcap or any other social media or external links as necessary. 
+- Add as many custom social links to the explorer footer as desired. Useful for linking to github, twitter, coinmarketcap or any other social media or external links as necessary.
 - Custom rpc/api command support which increases blockchain compatibility. Supported cmds:
   - **getnetworkhashps:** Returns the estimated network hashes per second
   - **getmininginfo:** Returns a json object containing mining-related information
@@ -253,7 +253,7 @@ db.createUser( { user: "eiquidus", pwd: "Nd^p2d77ceBX!L", roles: [ "readWrite" ]
 ##### Download Source Code
 
 ```
-git clone https://github.com/team-exor/eiquidus explorer
+git clone https://github.com/sumcash-projecteiquidus explorer
 ```
 
 ##### Install Node Modules
